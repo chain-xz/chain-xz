@@ -51,7 +51,7 @@ contract XZTOKEN is ERC20, ERC20Burnable, Ownable {
         SPREADS[client] = 0;
     }
 
-    function client_SPREADS(address client) public view returns (uint256) {
+    function client_spreads(address client) public view returns (uint256) {
         return SPREADS[client];
     }
 
