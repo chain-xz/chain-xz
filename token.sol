@@ -26,8 +26,8 @@ contract XZTOKEN is ERC20, ERC20Burnable, Ownable {
     }
 
     function mint_checks(address client) private view {
-        require(CLIENTS.contains(client), "Client is not trusted");
-        require(SPREADS[client] <= SPREAD, "Client already reached the SPREADS limit" );
+        require(CLIENTS.contains(client), "Client is not trusted;");
+        require(SPREADS[client] <= SPREAD, "Client already reached the SPREADS limit;" );
     }
 
     function burn(uint256 amount) public override {
