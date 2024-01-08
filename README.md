@@ -19,4 +19,8 @@
 
 ## Defense Mechanisms
 
-Client can't exceed mint spread more than 500,000.
+Client can't exceed mint spread more than 100,000
+
+## Devlopment
+
+remixd -s . --remix-ide https://remix.ethereum.org

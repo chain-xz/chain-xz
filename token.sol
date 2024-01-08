@@ -13,7 +13,7 @@ contract XZTOKEN is ERC20, ERC20Burnable, Ownable {
     mapping(address => uint256) private SPREADS;
 
     uint256 MINT = 21000000 ether;
-    uint256 SPREAD = 500000 ether;
+    uint256 SPREAD = 100000 ether;
 
     constructor() ERC20("XZ Token", "XZ") Ownable(msg.sender) {
         _mint(msg.sender, MINT);
